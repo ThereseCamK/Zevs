@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zevs</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: rgb(128, 92, 8);
+        }
+        .header{
+            text-align: center;
+            font-weight: lighter;
+            color: rgb(128, 92, 8);
+            text-shadow: 2px 2px 20px black;
+            font-size: 10px;
+            background-image: url('https://cdn.pixabay.com/photo/2020/09/16/15/24/zeus-5576677_960_720.jpg');
+            background-repeat:no-repeat;
+            background-size: cover;
+            height: 300px;
+            box-shadow: 5px 5px 60px black;
+        }
+        .container{
+            padding: 15px;
+            color: goldenrod;
+            font-weight: lighter;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="app"></div>
+
+    <script>
+        //Model
+
+        //View
+
+        view();
+        function view(){
+            let html = `<div class="header">
+                <h1> Om Zevs </h1>
+                <h2>Den høyeste og mektigste guden i gresk mytologi.</h2>
+                </div>
+                
+                <div class="container"> 
+                    
+                    Zevs er guden over alle guder! gud for himmelen og torden i den greske mytologien.<br>
+
+                    Han var den altskuende himmelgud, far og herre over alt, gjestenes og rettferdighetens gud. 
+                    Som himmelgud var Zevs ogå værgud. han valgte når det skulle være snø og regn, han var spesielt tordenes og lynets gud. Når han fant noen syndere sendte han dem en tordenkile.
+                   <hr>
+                            <p>
+                    Zevs var sønn av Kronos og Rhea. Kronos slukte alle barna sine, men Rhea reddet Zevs og gjemte han i en hule på Kreta. 
+                    Senere styrtet Zevs faren sin og mange andre Titanere i Tartaros(som er straffebyen i underverdenen, også kjent som helvete.)
+                    </p>
+                    <hr>
+                    Zevs var gift med Hera. De hadde sammen sønnene Ares og Hefaistos og datteren Hebe. 
+                    Med sin andre kone, Leto, hadde han tvillingene Apollon og Artemis. 
+                    Nettopp fordi han hadde så mange jordiske kjærligheter, ble han stamfar for mange kongefamilier.
+
+                    Zevs var rettens vokter, og hadde Dike vedsiden side, hun var rettferdighetens gudinne.
+                    Han avgjorde menneskers skjebne og mange avgjørelser ble gjort ut ifra humøret han var i. 
+                    Zevs ble sett på som den store som styrer naturen, av mange filosofer.
+
+                    <hr>
+                    <p>
+                        Lynet er våpenet hans, og kjennetegnet hans er en lynkile med blomsterlignende styrefjær.
+                         Han har også et skjold, aigiden, et geiteskinn som sprer lyn når han rister det.
+                         Ingen mennesker kan se det uten å ta stor skade. Ørna er fuglen og budbringeren hans, og eika og fjelltoppene er hellige for ham.
+                        </p>
+                    
+                    </div>
+
+                `;
+
+
+
+                
+
+            document.getElementById('app').innerHTML = html;
+        }
+
+        //Controller
+
+    </script>
+</body>
+</html>
